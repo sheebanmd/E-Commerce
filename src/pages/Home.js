@@ -52,12 +52,6 @@ const Home = () => {
                             <span class="tour-spec-place">T-MOBILE ARENA</span>
                             <button class="buy-btn">BUY TICKETS</button>
                         </div>
-                        <div className={classes['tour-item']}>
-                            <span class="tour-date">AUG 7</span>
-                            <span class="tour-place">CONCORD, CA</span>
-                            <span class="tour-spec-place"> CONCORD PAVILION</span>
-                            <button class="buy-btn">BUY TICKETS</button>
-                        </div>
                     </div>
                 </section>
             </Card>
