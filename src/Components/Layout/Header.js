@@ -5,6 +5,7 @@ import HeaderCartButton from './HeaderCartButton';
 
 const Header = (props) => {
   
+
     return (
     <>
         <header className={classes.header}>
@@ -12,8 +13,9 @@ const Header = (props) => {
             <Link to='/home'>Home</Link>
                 <Link to='/store'>Store</Link>
             <Link to='/about'>About</Link>
-            <Link to='/contact'>contact</Link>
-                <HeaderCartButton onClick={props.onShowCart} />
+                {/* <HeaderCartButton onClick={props.onShowCart} /> */}
+                <HeaderCartButton/>
+
             </nav>
         </header>
         <div className={classes.title}>
