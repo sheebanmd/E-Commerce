@@ -13,6 +13,7 @@ const Header = (props) => {
             <Link to='/home'>Home</Link>
                 <Link to='/store'>Store</Link>
             <Link to='/about'>About</Link>
+            <Link to="/contactus">Contact Us</Link>
                 {/* <HeaderCartButton onClick={props.onShowCart} /> */}
                 <HeaderCartButton/>
 
