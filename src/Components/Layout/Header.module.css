@@ -34,7 +34,14 @@ body{
     color:white;
 }
 
+.login{
+    margin:0;
+    padding:0px;
+    padding-bottom:30px;
+    background:rgb(0, 0, 0);
+    color:rgb(155, 46, 46);
 
+}
 .navbar{
     display:flex;
     padding:10px;

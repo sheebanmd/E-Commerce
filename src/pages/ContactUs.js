@@ -13,10 +13,10 @@ const ContactUs = () => {
     const ComplaintBox = {
               Name: Name.current.value,
               Email: Email.current.value,
-              Phone: Phone.current.value,
+              Phone: Phone.current.value
             };
-
-    const response = await fetch('https://react-http-1fcec-default-rtdb.firebaseio.com/userDetails.json', {
+            
+      const response = await fetch('https://auth-c7a43-default-rtdb.firebaseio.com/userDetails.json', {
       method: 'POST',
     //   body: JSON.stringify(userDetails),
       body: JSON.stringify(ComplaintBox),

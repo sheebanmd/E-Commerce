@@ -9,32 +9,35 @@ import CartStateProvider from "./Components/Products/Store.js/CartStateProvider"
 import Mycart from "./pages/Mycart";
 import ContactUs from "./pages/ContactUs";
 import {React} from "react";
+import Login from "./pages/Login";
+import { AuthContextProvider } from "./store/auth-context";
 
 function App() {
 
-  const onAddHandler = (ComplaintBox)=>{
-      console.log(ComplaintBox);    
-  }
-
+    //  const [isLogin, setIsLogin] = useState(true);
+      // const authCtx = useContext(AuthContext)
 
   return (
 
+      <AuthContextProvider>
       <CartStateProvider>
       <BrowserRouter>
-      {/* <Cart/> */}
       <Header/>
       <Routes>
         <Route path="/" element={<Home />}></Route>
         <Route path="/home" element={<Home />}></Route>
-        <Route path="/store" element={<Products />}></Route>
+        <Route path="/login" element={<Login />}></Route>
+        {/* {!authCtx.isLoggedIn && <Route path="/login" element={<Login />}></Route>}
+         {authCtx.isLoggedIn && <Route path="/store" element={<Products />}></Route>} */}
+         <Route path="/store" element={<Products />}></Route>
         <Route path="/about" element={<About />}></Route>
-        <Route path="/contactus" element={<ContactUs onAdd={onAddHandler}/>}></Route>
+        <Route path="/contactus" element={<ContactUs />}></Route>
         <Route path="/mycart" element={<Mycart />}></Route>
         <Route path="*" element={<NoMatchfound/>}></Route>
       </Routes>
     </BrowserRouter>
     </CartStateProvider>
-   
+   </AuthContextProvider>
   );
 }
 

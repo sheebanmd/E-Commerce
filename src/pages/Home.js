@@ -13,44 +13,44 @@ const Home = () => {
                 <button className={classes['play-btn']}>►</button>
             </div>
             <Card>
-                <section class='tour-item'>
+                <section className='tour-item'>
                     <h2>TOURS</h2>
                     <div>
                         <div className={classes['tour-item']}>
-                            <span class="tour-date"><b>Date</b></span>
-                            <span class="tour-place"><b>City</b></span>
-                            <span class="tour-spec-place"><b>Location</b></span>
+                            <span className="tour-date"><b>Date</b></span>
+                            <span className="tour-place"><b>City</b></span>
+                            <span className="tour-spec-place"><b>Location</b></span>
                             <span><br></br></span>
                         </div>
                         <div className={classes['tour-item']}>
-                            <span class="tour-date">JUL16</span>
-                            <span class="tour-place">DETROIT, MI</span>
-                            <span class="tour-spec-place">DTE ENERGY MUSIC THEATRE</span>
-                            <button class="buy-btn">BUY TICKETS</button>
+                            <span className="tour-date">JUL16</span>
+                            <span className="tour-place">DETROIT, MI</span>
+                            <span className="tour-spec-place">DTE ENERGY MUSIC THEATRE</span>
+                            <button className="buy-btn">BUY TICKETS</button>
                         </div>
                         <div className={classes['tour-item']}>
-                            <span class="tour-date">JUL19</span>
-                            <span class="tour-place">TORONTO,ON</span>
-                            <span class="tour-spec-place">BUDWEISER STAGE</span>
-                            <button class="buy-btn">BUY TICKETS</button>
+                            <span className="tour-date">JUL19</span>
+                            <span className="tour-place">TORONTO,ON</span>
+                            <span className="tour-spec-place">BUDWEISER STAGE</span>
+                            <button className="buy-btn">BUY TICKETS</button>
                         </div>
                         <div className={classes['tour-item']}>
-                            <span class="tour-date">JUL 22</span>
-                            <span class="tour-place"> BRISTOW, VA</span>
-                            <span class="tour-spec-place">JIGGY LUBE LIVE</span>
-                            <button class="buy-btn">BUY TICKETS</button>
+                            <span className="tour-date">JUL 22</span>
+                            <span className="tour-place"> BRISTOW, VA</span>
+                            <span className="tour-spec-place">JIGGY LUBE LIVE</span>
+                            <button className="buy-btn">BUY TICKETS</button>
                         </div>
                         <div className={classes['tour-item']}>
-                            <span class="tour-date">JUL 29</span>
-                            <span class="tour-place">PHOENIX, AZ</span>
-                            <span class="tour-spec-place"> AK-CHIN PAVILION</span>
-                            <button class="buy-btn">BUY TICKETS</button>
+                            <span className="tour-date">JUL 29</span>
+                            <span className="tour-place">PHOENIX, AZ</span>
+                            <span className="tour-spec-place"> AK-CHIN PAVILION</span>
+                            <button className="buy-btn">BUY TICKETS</button>
                         </div>
                         <div className={classes['tour-item']}>
-                            <span class="tour-date">AUG 2</span>
-                            <span class="tour-place">LAS VEGAS, NV</span>
-                            <span class="tour-spec-place">T-MOBILE ARENA</span>
-                            <button class="buy-btn">BUY TICKETS</button>
+                            <span className="tour-date">AUG 2</span>
+                            <span className="tour-place">LAS VEGAS, NV</span>
+                            <span className="tour-spec-place">T-MOBILE ARENA</span>
+                            <button className="buy-btn">BUY TICKETS</button>
                         </div>
                     </div>
                 </section>
